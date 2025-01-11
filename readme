@@ -1,8 +1,8 @@
  clonar el repositorio en git hub
 
 * como correr las pruebas por carpeta:
-    npx playwright test e2e/tour_operacion --workers=1
-    npx playwright test e2e/tour_operacion --workers=1
+    npx playwright test --workers=1
+ 
 
 * Como ver los resultados:
     npx playwright show-report
