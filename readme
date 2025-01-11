@@ -1,0 +1,24 @@
+ clonar el repositorio en git hub
+
+* como correr las pruebas por carpeta:
+    npx playwright test e2e/tour_operacion --workers=1
+    npx playwright test e2e/tour_operacion --workers=1
+
+* Como ver los resultados:
+    npx playwright show-report
+
+* como correr las pruebas en especifico:
+    npx playwright test e2e/tour_operacion/compraTour --workers=1
+
+* Poceso para que leer variables de entorno:
+    intalar la libreria: npm install dotenv
+
+* Hay que crear un archivo .env en la raiz del proyecto, con estas variables:
+  baseUrlMail = https://mail.tm/en/
+    baseUrlLatam = https://www.kayak.com.co/vuelos/Colombia-CO0/Nueva-Delhi-Aeropuerto-Internacional-Indira-Gandhi-DEL?sck=SEM&skipapp=true&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToWX_t3YjoqkpJdvzXlUe9hO0BS5DKxGYdVmhqijFRoo8CbiTYgQ1wQaAgV5EALw_wcB
+
+* solo si no se ha configurado las variables de entorno en github:
+    Ve al repositorio en GitHub.
+    Dirígete a Settings > Secrets and variables > Actions.
+    Haz clic en New repository secret.
+    Agrega cada una de las variables de entorno como un secreto. Usa los mismos nombres que usas en el archivo .env.
