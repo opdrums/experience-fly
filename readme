@@ -15,7 +15,7 @@
 
 * Hay que crear un archivo .env en la raiz del proyecto, con estas variables:
   baseUrlMail = https://mail.tm/en/
-    baseUrlLatam = https://www.kayak.com.co/vuelos/Colombia-CO0/Nueva-Delhi-Aeropuerto-Internacional-Indira-Gandhi-DEL?sck=SEM&skipapp=true&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToWX_t3YjoqkpJdvzXlUe9hO0BS5DKxGYdVmhqijFRoo8CbiTYgQ1wQaAgV5EALw_wcB
+  baseUrlLatam = https://www.kayak.com.co/vuelos/Colombia-CO0/Nueva-Delhi-Aeropuerto-Internacional-Indira-Gandhi-DEL?sck=SEM&skipapp=true&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToWX_t3YjoqkpJdvzXlUe9hO0BS5DKxGYdVmhqijFRoo8CbiTYgQ1wQaAgV5EALw_wcB
 
 * solo si no se ha configurado las variables de entorno en github:
     Ve al repositorio en GitHub.
